@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://openoceansscience.com/"
 languageCode = "en-us"
-title = "Agency"
+title = "Open Oceans"
 theme = "hugo-agency-theme"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
@@ -18,8 +18,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
-  description = "Your description"
+  name = "Open Oceans"
+  description = "Open science solutions for healthy oceans"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
