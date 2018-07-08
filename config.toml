@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://openoceansscience.com/"
 languageCode = "en-us"
-title = "Open Oceans"
+title = "Open Oceans" 
 theme = "hugo-agency-theme"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
@@ -47,12 +47,12 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "The Agency"
+    brand = "Open Oceans"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
+    #portfolio = "Portfolio"
+    #about = "About"
     team = "Team"
     contact = "Contact"
 
@@ -77,33 +77,33 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
-    buttonText = "Tell me more"
+    title = "Open Oceans"
+    subtitle = "Open science solutions for healthy oceans"
+    #buttonText = "Tell me more"
 
 
   # Services section
   [params.services]
     enable = true
     title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "We are a team of marine scientists with expertise developing quantitative indicators for environmental systems. We are now available for short-term consulting projects; please contact us with your ideas."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
+      #icon = "fa-shopping-cart"
       title = "E-Commerce"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
+      #icon = "fa-laptop"
       title = "Responsive Design"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
+      #icon = "fa-lock"
       title = "Web"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
