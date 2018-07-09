@@ -7,10 +7,11 @@
         <h3 class="section-subheading text-muted">{{ with .Site.Params.services.subtitle }}{{ . | markdownify }}{{ end }}</h3>
       </div>
     </div>
+     <div class="row flexbox{{ if .Site.Params.services.center }} flexbox-center{{ end }}">
     {{ range .Site.Params.services.row }}
       <div class="row text-center">
         {{ range .list }}
-          <div class="col-md-4">
+          <div class="col-sm-4 col">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
@@ -21,5 +22,6 @@
         {{ end }}
       </div>
     {{ end }}
+   </div>
   </div>
 </section>

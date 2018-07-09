@@ -85,6 +85,7 @@ googleAnalytics = ""
   # Services section
   [params.services]
     enable = true
+    center = true
     title = "Services"
     subtitle = "We are a team of marine scientists with expertise developing quantitative indicators for environmental systems. We are now available for short-term consulting projects; please contact us with your ideas."
 
