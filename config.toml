@@ -66,11 +66,11 @@ googleAnalytics = ""
     #  name = "Hugo"
     #  weight = 10
 
-    # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
+    ## postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
 
 
   # Hero section
@@ -165,7 +165,7 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     center = true
-    title = "Our amazing team"
+    title = "Our team"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
