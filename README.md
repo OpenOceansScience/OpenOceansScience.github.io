@@ -1,6 +1,4 @@
 # OpenOceansScience.github.io
-website
-
 
 To create this website: 
 
