@@ -85,34 +85,27 @@ googleAnalytics = ""
   # Services section
   [params.services]
     enable = true
-    center = true
     title = "Services"
-    subtitle = "We are a team of marine scientists with expertise developing quantitative indicators for environmental systems. We are now available for short-term consulting projects; please contact us with your ideas."
+    subtitle = "We are a team of marine scientists with expertise developing quantitative indicators for environmental systems. We are now available for short-term consulting projects, analyses and reporting. Please contact us with your ideas."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       #icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
+      title = "Ocean Health Index"
+      description = "We can support you as you lead your own ocean health assessment, ranging from providing guidance to leading the analyses."
+      url = "http://ohi-science.org"
 
     [[params.services.row.list]]
       #icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "Cumulative Human Impacts"
+      description = "We can lead cumulative human impact mapping for the oceans at global and smaller scales."
       url = "#"
 
     [[params.services.row.list]]
       #icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-      url = "#"
-      
-    [[params.services.row.list]]
-      #icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "Marine Indicators"
+      description = "Our expertise includes the theory and practice of good indicator development, for example fisheries and biodiversity indicators."
       url = "#"
 
   # Portfolio section
