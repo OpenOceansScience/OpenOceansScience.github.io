@@ -86,21 +86,21 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Services"
-    subtitle = "We are a team of marine scientists with expertise developing quantitative indicators for environmental systems. We are now available for short-term consulting projects, analyses and reporting. Please contact us with your ideas."
+    subtitle = "We are a team of marine data scientists with expertise developing quantitative indicators for environmental systems. We are available for short-term consulting projects, analyses and reporting. Please contact us with your ideas."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       #icon = "fa-shopping-cart"
       title = "Ocean Health Index"
-      description = "We can support you as you lead your own ocean health assessment, ranging from providing guidance to leading the analyses."
+      description = "We can support you with your own ocean health assessment, from providing guidance to leading analyses."
       url = "http://ohi-science.org"
 
     [[params.services.row.list]]
       #icon = "fa-laptop"
       title = "Cumulative Human Impacts"
       description = "We can lead cumulative human impact mapping for the oceans at global and smaller scales."
-      url = "#"
+      url = "https://www.nceas.ucsb.edu/globalmarine"
 
     [[params.services.row.list]]
       #icon = "fa-lock"
@@ -166,16 +166,16 @@ googleAnalytics = ""
     # Possibility to center items
     center = true
     title = "Our team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    # subtitle = "Lorem ipsum dolor sit amet consectetur."
+    # description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
+      img = "halpern.jpg"
+      name = "Ben Halpern"
+      # position = "Lead Designer"
       #reportsTo = "CTO"
       #livesIn = "[Munich, Germany](#some-maps-url)"
     # scope = [
@@ -186,51 +186,51 @@ googleAnalytics = ""
       # For bio markdown and even multiline strings are available.
       #bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
 #She worked at Pied Piper for years until they went belly up."""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    # social = [
+    #    ["fa-twitter", "#"],
+    #    ["fa-facebook", "#"],
+    #    ["fa-linkedin", "#"]
+    #  ]
 
     [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+      img = "afflerbach.jpg"
+      name = "Jamie Afflerbach"
+     # position = "Lead Marketer"
+    #  social = [
+    #    ["fa-twitter", "#"],
+    #    ["fa-facebook", "#"],
+    #    ["fa-linkedin", "#"]
+    #  ]
 
+   [[params.team.members]]
+      img = "frazier.jpg"
+      name = "Melanie Frazier"
+     # position = "Lead Marketer"
+    #  social = [
+    #    ["fa-twitter", "#"],
+    #    ["fa-facebook", "#"],
+    #    ["fa-linkedin", "#"]
+    #  ]
+      
+      [[params.team.members]]
+      img = "lowndes.jpg"
+      name = "Julia Lowndes"
+     # position = "Lead Marketer"
+    #  social = [
+    #    ["fa-twitter", "#"],
+    #    ["fa-facebook", "#"],
+    #    ["fa-linkedin", "#"]
+    #  ]
+      
     [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-      
-       [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-      
-       [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+      img = "scarborough.jpg"
+      name = "Courtney Scarborough"
+     # position = "Lead Marketer"
+    #  social = [
+    #    ["fa-twitter", "#"],
+    #    ["fa-facebook", "#"],
+    #    ["fa-linkedin", "#"]
+    #  ]
 
   # Client section
     [params.clients_list]
@@ -263,8 +263,8 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    subtitle  = "Please contact us at halpernopenoceans at gmail.com."
+    #buttonText = "Send message"
     # netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -285,31 +285,31 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    #email = "your@email.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
-    [params.contact.captcha]
+   # [params.contact.captcha]
       # sitekey = ""
 
     # 'warning' defines error messages for invalid inputs
-    [params.contact.form.name]
-      text = "Your Name *"
-      warning = "Please enter your name."
+    #[params.contact.form.name]
+    #  text = "Your Name *"
+    #  warning = "Please enter your name."
 
-    [params.contact.form.email]
-      text = "Your Email *"
-      warning = "Please enter your email address."
+    #[params.contact.form.email]
+    #  text = "Your Email *"
+    #  warning = "Please enter your email address."
 
-    [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
+    #[params.contact.form.phone]
+    #  text = "Your Phone *"
+    #  warning = "Please enter your phone number."
 
-    [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
+    #[params.contact.form.message]
+    #  text = "Your Message *"
+    #  warning = "Please enter a message."
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
@@ -321,29 +321,29 @@ googleAnalytics = ""
       #  name = "page"
 
   # Footer section
-  [params.footer]
-    enable = true
-    copyright = "Published under the Apache License 2.0."
+ # [params.footer]
+#    enable = true
+#    copyright = "Published under the Apache License 2.0."
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-      title = "Twitter"
+   # [[params.footer.social]]
+    #  icon = "fa-twitter"
+    #  link = "#"
+    #  title = "Twitter"
 
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-      title = "Facebook"
+    #[[params.footer.social]]
+    #  icon = "fa-facebook"
+    #  link = "#"
+    #  title = "Facebook"
 
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
-      title = "LinkedIn"
+    #[[params.footer.social]]
+    #  icon = "fa-linkedin"
+    #  link = "#"
+    #  title = "LinkedIn"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+    #[[params.footer.quicklinks]]
+    #  text = "Privacy Policy"
+    #  link = "#"
 
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+    #[[params.footer.quicklinks]]
+    #  text = "Terms of Use"
+    #  link = "#"
