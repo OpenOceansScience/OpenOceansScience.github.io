@@ -94,7 +94,7 @@ googleAnalytics = ""
       #icon = "fa-shopping-cart"
       title = "Ocean Health Index"
       description = "We can support you with your own ocean health assessment, from providing guidance to leading analyses."
-      url = "http://ohi-science.org"
+      url = "http://ohi-science.org/projects/ohi-opportunities/"
 
     [[params.services.row.list]]
       #icon = "fa-laptop"
